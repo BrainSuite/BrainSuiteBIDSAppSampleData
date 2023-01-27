@@ -22,15 +22,15 @@ docker pull bids/brainsuite:stable
 3. Run structural, difussion, and function MRI processing for all subjects:
 ```
 docker run -ti --rm \
-      -v /path/to/AOMICsubset/:/AOMICsubset \
+      -v /path/to/aomicsubset/:/aomicsubset \
 	  -v /path/to/output/:/output
       bids/brainsuite:stable \
-      /AOMICsubset/AOMIC-PIOP2 /output participant \
-	  --preprocspec /AOMICsubset/aomic-piop2_preprocspec.json
+      /aomicsubset/AOMIC-PIOP2 /output participant \
+	  --preprocspec /aomicsubset/aomic-piop2_preprocspec.json
 ``` 
 where
 
-* `/path/to/AOMICsubset` is the path of the location of this repository that you have downloaded onto your computer
+* `/path/to/aomicsubset` is the path of the location of this repository that you have downloaded onto your computer
 * `/path/to/output` is the path to where you would like the output files to be written
 
 4. Run BrainSuite Dashboard:
@@ -39,7 +39,7 @@ docker run -ti --rm \
       -p 8080:8080
       -v /path/to/output/:/output
       bids/brainsuite:stable \
-      /AOMICsubset/AOMIC-PIOP2 /output participant \
+      /aomicsubset/AOMIC-PIOP2 /output participant \
 	  --stages DASHBOARD --localWebserver
 ```
 
@@ -49,12 +49,12 @@ docker run -ti --rm \
 2.  Run structural, difussion, and function MRI processing for just one subject (e.g. 0015):
 ```
 docker run -ti --rm \
-      -v /path/to/AOMICsubset/:/AOMICsubset \
+      -v /path/to/aomicsubset/:/aomicsubset \
 	  -v /path/to/output/:/output
       bids/brainsuite:stable \
-      /AOMICsubset/AOMIC-PIOP2 /output participant \ 
+      /aomicsubset/AOMIC-PIOP2 /output participant \ 
 	  --participant_label 0015 
-	  --preprocspec /AOMICsubset/aomic-piop2_preprocspec.json 
+	  --preprocspec /aomicsubset/aomic-piop2_preprocspec.json 
 ``` 
 If you would like to run a different subject, you can replace `0015` with a a different subject ID.
 
@@ -64,7 +64,7 @@ docker run -ti --rm \
       -p 8080:8080
       -v /path/to/output/:/output
       bids/brainsuite:stable \
-      /AOMICsubset/AOMIC-PIOP2 /output participant \
+      /aomicsubset/AOMIC-PIOP2 /output participant \
 	  --stages DASHBOARD --localWebserver \
 	  --participant_label 0015 
 ```
