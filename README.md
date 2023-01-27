@@ -42,6 +42,7 @@ docker run -ti --rm \
       /aomicsubset/AOMIC-PIOP2 /output participant \
 	  --stages DASHBOARD --localWebserver
 ```
+To view the BrainSuite Dashboard for real-time updates on your processing, open up a web browser and navigate to this URL: http://127.0.0.1:8080.
 
 ## Instructions on Running Only One Subject ##
 1. If you haven't already done so, please complete steps 1 and 2 in the instructions above
@@ -68,6 +69,7 @@ docker run -ti --rm \
 	  --stages DASHBOARD --localWebserver \
 	  --participant_label 0015 
 ```
+To view the BrainSuite Dashboard for real-time updates on your processing, open up a web browser and navigate to this URL: http://127.0.0.1:8080.
 
 ## Support ##
 Additional details and instructions can be found on our website (rtd). For any questions or comments, please submit them as issues on our [BrainSuite BIDS App GitHub repository](https://github.com/bids-apps/BrainSuite).
