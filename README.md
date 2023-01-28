@@ -23,7 +23,7 @@ docker pull bids/brainsuite:stable
 ```
 docker run -ti --rm \
       -v /path/to/aomicsubset/:/aomicsubset \
-	  -v /path/to/output/:/output
+	  -v /path/to/output/:/output \
       bids/brainsuite:stable \
       /aomicsubset/AOMIC-PIOP2 /output participant \
 	  --preprocspec /aomicsubset/aomic-piop2_preprocspec.json
@@ -37,7 +37,8 @@ where
 ```
 docker run -ti --rm \
       -p 8080:8080
-      -v /path/to/output/:/output
+      -v /path/to/aomicsubset/:/aomicsubset \
+      -v /path/to/output/:/output \
       bids/brainsuite:stable \
       /aomicsubset/AOMIC-PIOP2 /output participant \
 	  --stages DASHBOARD --localWebserver
@@ -51,10 +52,10 @@ To view the BrainSuite Dashboard for real-time updates on your processing, open 
 ```
 docker run -ti --rm \
       -v /path/to/aomicsubset/:/aomicsubset \
-	  -v /path/to/output/:/output
+	  -v /path/to/output/:/output \
       bids/brainsuite:stable \
       /aomicsubset/AOMIC-PIOP2 /output participant \ 
-	  --participant_label 0015 
+	  --participant_label 0015 \
 	  --preprocspec /aomicsubset/aomic-piop2_preprocspec.json 
 ``` 
 If you would like to run a different subject, you can replace `0015` with a a different subject ID.
@@ -62,8 +63,9 @@ If you would like to run a different subject, you can replace `0015` with a a di
 3. Run BrainSuite Dashboard:
 ```
 docker run -ti --rm \
-      -p 8080:8080
-      -v /path/to/output/:/output
+      -p 8080:8080 \
+      -v /path/to/aomicsubset/:/aomicsubset \
+      -v /path/to/output/:/output \
       bids/brainsuite:stable \
       /aomicsubset/AOMIC-PIOP2 /output participant \
 	  --stages DASHBOARD --localWebserver \
