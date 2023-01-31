@@ -11,7 +11,7 @@ This repository contains a small subset of the publicly available [Amsterdam Ope
 ## Instructions on Running Participant-Level Processing ##
 1. Download this repository by cloning this repository or by downloading [the zip file](https://github.com/BrainSuite/BrainSuiteBIDSAppSampleData/archive/refs/heads/master.zip). To clone, run:
 ```
-git clone https://yeunkim@bitbucket.org/brainsuite/aomicsubset.git
+git clone https://github.com/BrainSuite/BrainSuiteBIDSAppPaperData.git
 ```
 
 2. Pull BrainSuite BIDS App image:
