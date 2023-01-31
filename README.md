@@ -78,3 +78,6 @@ Additional details and instructions can be found on our website (rtd). For any q
 
 ## Source Code ##
 The source code for BrainSuite BIDS App is publicly available and is located at [https://github.com/bids-apps/BrainSuite](https://github.com/bids-apps/BrainSuite). Additionally, our BrainSuite BIDS App images are also available on [DockerHub](https://hub.docker.com/r/bids/brainsuite/).
+
+## AOMIC-PIOP2 License ##
+CC0
