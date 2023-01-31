@@ -87,4 +87,4 @@ Citation for the dataset paper:
 * Snoek, L., van der Miesen, M. M., Beemsterboer, T., Van Der Leij, A., Eigenhuis, A., & Steven Scholte, H. (2021). The Amsterdam Open MRI Collection, a set of multimodal MRI datasets for individual difference analyses. Scientific data, 8(1), 85.
 
 ## AOMIC-PIOP2 Dataset License ##
-![CC0](https://img.shields.io/badge/License-CC0-green.svg) These data are freely available under a CC0 license.
+[![CC0](https://img.shields.io/badge/License-CC0-green.svg) ](https://creativecommons.org/publicdomain/zero/1.0/) These data are freely available under a CC0 license.
