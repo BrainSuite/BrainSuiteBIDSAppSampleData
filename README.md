@@ -1,9 +1,9 @@
-# Example Dataset for BrainSuite BIDS App Demonstration #
-This repository contains a small subset of the publicly available [Amsterdam Open MRI Collection's Population Imaging of Psychology 2 (AOMIC-PIOP2)](https://openneuro.org/datasets/ds002790/versions/2.0.0) dataset on [OpenNeuro](openneuro.org) and other necessary files required to perform BrainSuite BIDS App's participant-level processing:
+# Example Dataset for BrainSuite BIDS App #
+This repository contains a small subset of the publicly available [Amsterdam Open MRI Collection's Population Imaging of Psychology 2 (AOMIC-PIOP2)](https://openneuro.org/datasets/ds002790/versions/2.0.0) dataset available from [OpenNeuro](openneuro.org) and other files required to perform a small demonstration of BrainSuite BIDS App's participant-level processing:
 
 * AOMIC-PIOP2 : BIDS-compliant study directory containing data from 4 subjects; modalities include T1-weighted (T1-w), diffusion (dMRI), resting-state functional MRI (rs-fMRI)
-* aomic-piop2_preprocspec.json : JSON file containing parameters for T1-w, dMRI, and rs-fMRI processing
-* README.md : Instructions on running participant-level workflows
+* aomic-piop2_preprocspec.json : JSON file containing parameters for T1-weighted, dMRI, and rs-fMRI processing
+* README.md : Instructions for running participant-level workflows
 
 ## Pre-requisites ##
 1. Install Docker from [here](https://docs.docker.com/install/). Docker is available on all platforms. For Linux, you may have to perform additional [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/).
@@ -43,7 +43,7 @@ docker run -ti --rm \
       /aomicsubset/AOMIC-PIOP2 /output participant \
 	  --stages DASHBOARD --localWebserver
 ```
-To view the BrainSuite Dashboard for real-time updates on your processing, open up a web browser and navigate to this URL: http://127.0.0.1:8080.
+To view the BrainSuite Dashboard for real-time updates on your processing, open a web browser and navigate to: http://127.0.0.1:8080.
 
 ## Instructions on Running Only One Subject ##
 1. If you haven't already done so, please complete steps 1 and 2 in the instructions above
