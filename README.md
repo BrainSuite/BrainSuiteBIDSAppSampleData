@@ -45,10 +45,10 @@ docker run -ti --rm \
 ```
 To view the BrainSuite Dashboard for real-time updates on your processing, open a web browser and navigate to: http://127.0.0.1:8080.
 
-## Instructions on Running Only One Subject ##
-1. If you haven't already done so, please complete steps 1 and 2 in the instructions above
+## Instructions for Running Only One Subject ##
+1. If you haven't already done so, please complete steps 1 and 2 in the instructions above.
 
-2.  Run structural, difussion, and function MRI processing for just one subject (e.g. 0015):
+2. Run structural, difussion, and function MRI processing for just one subject (e.g. 0015):
 ```
 docker run -ti --rm \
       -v /path/to/aomicsubset/:/aomicsubset \
@@ -58,7 +58,7 @@ docker run -ti --rm \
 	  --participant_label 0015 \
 	  --preprocspec /aomicsubset/aomic-piop2_preprocspec.json 
 ``` 
-If you would like to run a different subject, you can replace `0015` with a a different subject ID.
+If you would like to run a different subject, you can replace `0015` with a different subject ID.
 
 3. Run BrainSuite Dashboard:
 ```
