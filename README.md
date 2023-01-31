@@ -5,6 +5,8 @@ This repository contains a small subset of the publicly available [Amsterdam Ope
 * aomic-piop2_preprocspec.json : JSON file containing parameters for T1-weighted, dMRI, and rs-fMRI processing
 * README.md : Instructions for running participant-level workflows
 
+This demo will enable you to display intermediate outputs using the BrainSuite Dashboard. An example of the output produced from this dataset is available at [https://brainsuite.github.io/DashboardDemo/](https://brainsuite.github.io/DashboardDemo/).
+
 ## Prerequisites ##
 1. Install Docker from [here](https://docs.docker.com/install/). Docker is available on all platforms. For Linux, you may have to perform additional [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/).
 
