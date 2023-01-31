@@ -5,7 +5,7 @@ This repository contains a small subset of the publicly available [Amsterdam Ope
 * aomic-piop2_preprocspec.json : JSON file containing parameters for T1-weighted, dMRI, and rs-fMRI processing
 * README.md : Instructions for running participant-level workflows
 
-## Pre-requisites ##
+## Prerequisites ##
 1. Install Docker from [here](https://docs.docker.com/install/). Docker is available on all platforms. For Linux, you may have to perform additional [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/).
 
 ## Instructions on Running Participant-Level Processing ##
