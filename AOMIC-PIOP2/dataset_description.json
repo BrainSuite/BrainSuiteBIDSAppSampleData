@@ -3,7 +3,7 @@
     "Data Provenance": "This dataset is a subset of 4 subjects (0015, 0017, 0035, 0066) from the AOMIC-PIOP2 dataset. This subset only contains T1-weighted MRI, diffusion MRI, and resting-state fMRI; other data files have been removed. This subset is re-shared as test datasets to demonstrate the functionalities of the BrainSuite BIDS App."
     "BIDSVersion": "1.0.2",
     "License": "CC0",
-    "Authors": [
+    "Original Authors": [
         "Lukas Snoek",
         "Maite van der Miesen",
         "Andries van der Leij",
@@ -11,7 +11,6 @@
         "Annemarie Eigenhuis",
         "Steven Scholte"
     ],
-    "Acknowledgements": "We thank all research assistants and students who helped collecting the data of the three projects, Jasper Wijnen and Marco Teunisse for advice and guidance with respect to anonymization and GDPR-related concerns, and Jos Bloemers, Sennay Ghebeab, Adriaan Tuiten, Joram van Driel, Christian Olivers, Ilja Sligte, Sara Jahfari, Guido van Wingen, and Suzanne Oosterwijk for help with designing the paradigms, Marcus Spaan for technical support, and Franklin Feingold and Joe Wexler for help with uploading the datasets to Openneuro.",
     "HowToAcknowledge": "Snoek, L., van der Miesen, M.M., Beemsterboer, T., van der Leij, A., Eigenhuis, A., & Scholte, H.S. (in prep.). The Amsterdam Open MRI Collection, a set of multimodal MRI datasets for individual difference analyses.",
     "Funding": [],
     "ReferencesAndLinks": [
