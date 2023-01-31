@@ -77,7 +77,7 @@ To view the BrainSuite Dashboard for real-time updates on your processing, open 
 Additional details and instructions can be found on [https://brainsuite.org/BIDS/](the BrainSuite website BIDS page). For any questions or comments, please submit them as issues on our [BrainSuite BIDS App GitHub repository](https://github.com/bids-apps/BrainSuite).
 
 ## Source Code ##
-The source code for BrainSuite BIDS App is publicly available and is located at [https://github.com/bids-apps/BrainSuite](https://github.com/bids-apps/BrainSuite). Additionally, our BrainSuite BIDS App images are also available on [DockerHub](https://hub.docker.com/r/bids/brainsuite/).
+The source code for BrainSuite BIDS App is publicly available and is located at [https://github.com/bids-apps/BrainSuite/](https://github.com/bids-apps/BrainSuite/). Additionally, our BrainSuite BIDS App images are also available on [DockerHub](https://hub.docker.com/r/bids/brainsuite/).
 
 ## Citation for AOMIC-PIOP2 Dataset ##
 Citation for the complete AOMIC-PIOP2 dataset:
