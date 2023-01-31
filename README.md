@@ -74,7 +74,7 @@ docker run -ti --rm \
 To view the BrainSuite Dashboard for real-time updates on your processing, open a web browser and navigate to: http://127.0.0.1:8080.
 
 ## Support ##
-Additional details and instructions can be found on our website (rtd). For any questions or comments, please submit them as issues on our [BrainSuite BIDS App GitHub repository](https://github.com/bids-apps/BrainSuite).
+Additional details and instructions can be found on [https://brainsuite.org/BIDS/](the BrainSuite website BIDS page). For any questions or comments, please submit them as issues on our [BrainSuite BIDS App GitHub repository](https://github.com/bids-apps/BrainSuite).
 
 ## Source Code ##
 The source code for BrainSuite BIDS App is publicly available and is located at [https://github.com/bids-apps/BrainSuite](https://github.com/bids-apps/BrainSuite). Additionally, our BrainSuite BIDS App images are also available on [DockerHub](https://hub.docker.com/r/bids/brainsuite/).
