@@ -9,7 +9,7 @@ This repository contains a small subset of the publicly available [Amsterdam Ope
 1. Install Docker from [here](https://docs.docker.com/install/). Docker is available on all platforms. For Linux, you may have to perform additional [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/).
 
 ## Instructions on Running Participant-Level Processing ##
-1. Download this repository by cloning this repository or downloading the zip file. To clone, run:
+1. Download this repository by cloning this repository or by downloading [https://github.com/BrainSuite/BrainSuiteBIDSAppSampleData/archive/refs/heads/master.zip](the zip file). To clone, run:
 ```
 git clone https://yeunkim@bitbucket.org/brainsuite/aomicsubset.git
 ```
