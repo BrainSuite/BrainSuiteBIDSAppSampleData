@@ -1,4 +1,4 @@
-# Example Dataset for BrainSuite BIDS App #
+# Example Dataset for the BrainSuite BIDS App #
 This repository contains a small subset of the publicly available [Amsterdam Open MRI Collection's Population Imaging of Psychology 2 (AOMIC-PIOP2)](https://openneuro.org/datasets/ds002790/versions/2.0.0) dataset available from [OpenNeuro](openneuro.org) and other files required to perform a small demonstration of BrainSuite BIDS App's participant-level processing:
 
 * AOMIC-PIOP2 : BIDS-compliant study directory containing data from 4 subjects; modalities include T1-weighted (T1-w), diffusion (dMRI), resting-state functional MRI (rs-fMRI)
