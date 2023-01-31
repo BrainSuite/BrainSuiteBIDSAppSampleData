@@ -18,5 +18,5 @@
         "https://nilab-uva.github.io/AOMIC.github.io/",
         "https://github.com/NILAB-UvA/PIOP2"
     ],
-    "DatasetDOI": "10.18112/openneuro.ds002790.v2.0.0"
+    "SourceDatasets": "10.18112/openneuro.ds002790.v2.0.0"
 }
