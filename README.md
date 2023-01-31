@@ -71,7 +71,7 @@ docker run -ti --rm \
 	  --stages DASHBOARD --localWebserver \
 	  --participant_label 0015 
 ```
-To view the BrainSuite Dashboard for real-time updates on your processing, open up a web browser and navigate to this URL: http://127.0.0.1:8080.
+To view the BrainSuite Dashboard for real-time updates on your processing, open a web browser and navigate to: http://127.0.0.1:8080.
 
 ## Support ##
 Additional details and instructions can be found on our website (rtd). For any questions or comments, please submit them as issues on our [BrainSuite BIDS App GitHub repository](https://github.com/bids-apps/BrainSuite).
