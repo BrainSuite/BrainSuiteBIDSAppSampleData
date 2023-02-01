@@ -1,6 +1,6 @@
 {
-    "Name": "AOMIC-PIOP2",
-    "DataProvenance": "This dataset is a subset of 4 subjects (0015, 0017, 0035, 0066) from the AOMIC-PIOP2 dataset. This subset only contains T1-weighted MRI, diffusion MRI, and resting-state fMRI; other data files have been removed. This subset is re-shared as test datasets to demonstrate the functionalities of the BrainSuite BIDS App."
+    "Name": "BrainSuite BIDS APP Demo Data (AOMIC-PIOP2 subset)",
+    "DataProvenance": "This dataset is a subset of 4 subjects (0015, 0017, 0035, 0066) from the AOMIC-PIOP2 dataset. This subset only contains T1-weighted MRI, diffusion MRI, and resting-state fMRI; other data files have been removed. This subset is re-shared as test datasets to demonstrate the functionalities of the BrainSuite BIDS App.",
     "BIDSVersion": "1.0.2",
     "License": "CC0",
     "OriginalAuthors": [
@@ -18,5 +18,5 @@
         "https://github.com/NILAB-UvA/PIOP2",
         "https://github.com/BrainSuite/BrainSuiteBIDSAppSampleData"
     ],
-    "SourceDatasets": "10.18112/openneuro.ds002790.v2.0.0"
+    "SourceDatasets": [{"DOI":"10.18112/openneuro.ds002790.v2.0.0"}]
 }
