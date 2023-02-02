@@ -1,6 +1,6 @@
 {
     "Name": "BrainSuite BIDS APP Demo Data (AOMIC-PIOP2 subset)",
-    "DataProvenance": "This dataset is a subset of 4 subjects (0015, 0017, 0035, 0066) from the AOMIC-PIOP2 dataset. This subset only contains T1-weighted MRI, diffusion MRI, and resting-state fMRI; other data files have been removed. This subset is re-shared as test datasets to demonstrate the functionalities of the BrainSuite BIDS App.",
+    "DataProvenance": "This dataset is a subset of data from 4 participants (0015, 0017, 0035, 0066) from the AOMIC-PIOP2 dataset. This subset only contains T1-weighted MRI, diffusion MRI, and resting-state fMRI; other data files have been removed. This subset is re-shared as test datasets to demonstrate the functionalities of the BrainSuite BIDS App.",
     "BIDSVersion": "1.0.2",
     "License": "CC0",
     "OriginalAuthors": [
@@ -12,7 +12,6 @@
         "Steven Scholte"
     ],
     "HowToAcknowledge": "Snoek, L., van der Miesen, M.M., Beemsterboer, T., van der Leij, A., Eigenhuis, A., & Scholte, H.S. (in prep.). The Amsterdam Open MRI Collection, a set of multimodal MRI datasets for individual difference analyses.",
-    "Funding": [],
     "ReferencesAndLinks": [
         "https://nilab-uva.github.io/AOMIC.github.io/",
         "https://github.com/NILAB-UvA/PIOP2",
