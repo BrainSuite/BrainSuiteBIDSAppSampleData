@@ -1,9 +1,9 @@
 # Example Dataset for the BrainSuite BIDS App #
-This repository contains a small subset of the publicly available [Amsterdam Open MRI Collection's Population Imaging of Psychology 2 (AOMIC-PIOP2)](https://openneuro.org/datasets/ds002790/versions/2.0.0) dataset available from [OpenNeuro](openneuro.org) and other files required to perform a small demonstration of BrainSuite BIDS App's participant-level processing:
+This repository contains a small subset of the publicly available [Amsterdam Open MRI Collection's Population Imaging of Psychology 2 (AOMIC-PIOP2)](https://openneuro.org/datasets/ds002790/versions/2.0.0) dataset available from [OpenNeuro](openneuro.org) and other files required to perform a demonstration of BrainSuite BIDS App's participant-level processing and the BrainSuite Dashboard quality control functionality. These files in this repository include:
 
-* AOMIC-PIOP2 : BIDS-compliant study directory containing data from 4 subjects; modalities include T1-weighted (T1-w), diffusion (dMRI), resting-state functional MRI (rs-fMRI)
-* aomic-piop2_preprocspec.json : JSON file containing parameters for T1-weighted, dMRI, and rs-fMRI processing
-* README.md : Instructions for running participant-level workflows
+* AOMIC-PIOP2 : a BIDS-compliant study directory containing data from 4 participants; modalities include T1-weighted (T1-w), diffusion MRI (dMRI), resting-state functional MRI (rs-fMRI).
+* aomic-piop2_preprocspec.json : a JSON file containing parameters for T1-weighted, dMRI, and rs-fMRI processing.
+* README.md : instructions for running participant-level workflows.
 
 This demo will enable you to display intermediate outputs using the BrainSuite Dashboard. An example of the output produced from this dataset is available at [https://brainsuite.github.io/DashboardDemo/](https://brainsuite.github.io/DashboardDemo/).
 
