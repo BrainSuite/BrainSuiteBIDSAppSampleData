@@ -24,25 +24,25 @@ docker pull bids/brainsuite:stable
 3. Run structural, difussion, and function MRI processing for all subjects:
 ```
 docker run -ti --rm \
-      -v /path/to/aomicsubset/:/aomicsubset \
+      -v /path/to/BrainSuiteBIDSAppSampleData/:/BrainSuiteBIDSAppSampleData \
       -v /path/to/output/:/output \
       bids/brainsuite:stable \
-      /aomicsubset/AOMIC-PIOP2 /output participant \
-      --preprocspec /aomicsubset/aomic-piop2_preprocspec.json
+      /BrainSuiteBIDSAppSampleData/AOMIC-PIOP2 /output participant \
+      --preprocspec /BrainSuiteBIDSAppSampleData/aomic-piop2_preprocspec.json
 ``` 
 where
 
-* `/path/to/aomicsubset` is the path of the location of this repository that you have downloaded onto your computer
+* `/path/to/BrainSuiteBIDSAppSampleData` is the path of the location of this repository that you have downloaded onto your computer
 * `/path/to/output` is the path to where you would like the output files to be written
 
 4. Run BrainSuite Dashboard:
 ```
 docker run -ti --rm \
       -p 8080:8080 \
-      -v /path/to/aomicsubset/:/aomicsubset \
+      -v /path/to/BrainSuiteBIDSAppSampleData/:/BrainSuiteBIDSAppSampleData \
       -v /path/to/output/:/output \
       bids/brainsuite:stable \
-      /aomicsubset/AOMIC-PIOP2 /output participant \
+      /BrainSuiteBIDSAppSampleData/AOMIC-PIOP2 /output participant \
       --stages DASHBOARD --localWebserver
 ```
 To view the BrainSuite Dashboard for real-time updates on your processing, open a web browser and navigate to: http://127.0.0.1:8080.
@@ -53,12 +53,12 @@ To view the BrainSuite Dashboard for real-time updates on your processing, open 
 2. Run structural, difussion, and function MRI processing for just one subject (e.g. 0015):
 ```
 docker run -ti --rm \
-      -v /path/to/aomicsubset/:/aomicsubset \
+      -v /path/to/BrainSuiteBIDSAppSampleData/:/BrainSuiteBIDSAppSampleData \
       -v /path/to/output/:/output \
       bids/brainsuite:stable \
-      /aomicsubset/AOMIC-PIOP2 /output participant \ 
+      /BrainSuiteBIDSAppSampleData/AOMIC-PIOP2 /output participant \ 
       --participant_label 0015 \
-      --preprocspec /aomicsubset/aomic-piop2_preprocspec.json 
+      --preprocspec /BrainSuiteBIDSAppSampleData/aomic-piop2_preprocspec.json 
 ``` 
 If you would like to run a different subject, you can replace `0015` with a different subject ID.
 
@@ -66,10 +66,10 @@ If you would like to run a different subject, you can replace `0015` with a diff
 ```
 docker run -ti --rm \
       -p 8080:8080 \
-      -v /path/to/aomicsubset/:/aomicsubset \
+      -v /path/to/BrainSuiteBIDSAppSampleData/:/BrainSuiteBIDSAppSampleData \
       -v /path/to/output/:/output \
       bids/brainsuite:stable \
-      /aomicsubset/AOMIC-PIOP2 /output participant \
+      /BrainSuiteBIDSAppSampleData/AOMIC-PIOP2 /output participant \
       --stages DASHBOARD --localWebserver \
       --participant_label 0015 
 ```
