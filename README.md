@@ -13,7 +13,7 @@ This demo will enable you to display intermediate outputs using the BrainSuite D
 ## Instructions on Running Participant-Level Processing ##
 1. Download this repository by cloning this repository or by downloading [the zip file](https://github.com/BrainSuite/BrainSuiteBIDSAppSampleData/archive/refs/heads/master.zip). To clone, run:
 ```
-git clone https://github.com/BrainSuite/BrainSuiteBIDSAppPaperData.git
+git clone https://github.com/BrainSuite/BrainSuiteBIDSAppSampleData.git
 ```
 
 2. Pull BrainSuite BIDS App image:
