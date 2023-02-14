@@ -18,7 +18,7 @@ git clone https://github.com/BrainSuite/BrainSuiteBIDSAppPaperData.git
 
 2. Pull BrainSuite BIDS App image:
 ```
-docker pull bids/brainsuite:stable
+docker pull bids/brainsuite:v21a
 ```
 
 3. Run structural, difussion, and function MRI processing for all subjects:
@@ -26,7 +26,7 @@ docker pull bids/brainsuite:stable
 docker run -ti --rm \
       -v /path/to/BrainSuiteBIDSAppSampleData/:/BrainSuiteBIDSAppSampleData \
       -v /path/to/output/:/output \
-      bids/brainsuite:stable \
+      bids/brainsuite:v21a \
       /BrainSuiteBIDSAppSampleData/AOMIC-PIOP2 /output participant \
       --preprocspec /BrainSuiteBIDSAppSampleData/aomic-piop2_preprocspec.json
 ``` 
@@ -41,7 +41,7 @@ docker run -ti --rm \
       -p 8080:8080 \
       -v /path/to/BrainSuiteBIDSAppSampleData/:/BrainSuiteBIDSAppSampleData \
       -v /path/to/output/:/output \
-      bids/brainsuite:stable \
+      bids/brainsuite:v21a \
       /BrainSuiteBIDSAppSampleData/AOMIC-PIOP2 /output participant \
       --stages DASHBOARD --localWebserver
 ```
@@ -55,7 +55,7 @@ To view the BrainSuite Dashboard for real-time updates on your processing, open 
 docker run -ti --rm \
       -v /path/to/BrainSuiteBIDSAppSampleData/:/BrainSuiteBIDSAppSampleData \
       -v /path/to/output/:/output \
-      bids/brainsuite:stable \
+      bids/brainsuite:v21a \
       /BrainSuiteBIDSAppSampleData/AOMIC-PIOP2 /output participant \ 
       --participant_label 0015 \
       --preprocspec /BrainSuiteBIDSAppSampleData/aomic-piop2_preprocspec.json 
@@ -68,7 +68,7 @@ docker run -ti --rm \
       -p 8080:8080 \
       -v /path/to/BrainSuiteBIDSAppSampleData/:/BrainSuiteBIDSAppSampleData \
       -v /path/to/output/:/output \
-      bids/brainsuite:stable \
+      bids/brainsuite:v21a \
       /BrainSuiteBIDSAppSampleData/AOMIC-PIOP2 /output participant \
       --stages DASHBOARD --localWebserver \
       --participant_label 0015 
