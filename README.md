@@ -5,10 +5,10 @@ This repository contains a small subset of the publicly available [Amsterdam Ope
 * aomic-piop2_preprocspec.json : a JSON file containing parameters for T1-weighted, dMRI, and rs-fMRI processing.
 * README.md : brief information regarding this repository.
 
-This demo will guide you through the steps necessary to process the T1-w, dMRI, and rs-fMRI data from the 4 participants and display intermediate outputs using the BrainSuite Dashboard. An example of the output produced from this dataset is available at [https://brainsuite.github.io/DashboardDemo/](https://brainsuite.github.io/DashboardDemo/).
+This demo will guide you through the steps necessary to process the T1-w, dMRI, and rs-fMRI data from the 4 participants as well as display intermediate outputs using the BrainSuite Dashboard. An example of the output produced from this dataset is available at [https://brainsuite.github.io/DashboardDemo/](https://brainsuite.github.io/DashboardDemo/).
 
 ## Instructions for running participant-level workflows and BrainSuite Dashboard ##
-Complete instructions for this demo walk-through are available on our website: [https://brainsuite.org/BIDS/walkthrough.html]. 
+Please visit our our website at [https://brainsuite.org/BIDS/walkthrough.html](https://brainsuite.org/BIDS/walkthrough.html) for complete instructions for this demo walk-through.
 
 ## Support ##
 Additional details regarding the BrainSuite BIDS App and its usage can be found on [the BrainSuite website BIDS page](https://brainsuite.org/BIDS/). For any questions or comments, please submit them as issues on our [BrainSuite BIDS App GitHub repository](https://github.com/bids-apps/BrainSuite).
