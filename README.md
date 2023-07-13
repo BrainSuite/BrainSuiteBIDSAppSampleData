@@ -3,6 +3,7 @@ This repository contains a small subset of the publicly available [Amsterdam Ope
 
 * AOMIC-PIOP2 : a BIDS-compliant study directory containing data from 4 participants; modalities include T1-weighted (T1-w), diffusion MRI (dMRI), resting-state functional MRI (rs-fMRI).
 * aomic-piop2_preprocspec.json : a JSON file containing parameters for T1-weighted, dMRI, and rs-fMRI processing.
+* eddyPrep: text files required for running FSL's eddy during dMRI processing. 
 * README.md : brief information regarding this repository.
 
 This demo will guide you through the steps necessary to process the T1-w, dMRI, and rs-fMRI data from the 4 participants as well as display intermediate outputs using the BrainSuite Dashboard. An example of the output produced from this dataset is available at [https://brainsuite.github.io/DashboardDemo/](https://brainsuite.github.io/DashboardDemo/).
