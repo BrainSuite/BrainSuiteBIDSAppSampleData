@@ -23,8 +23,8 @@
 		},
 		"Diffusion": {
 			"fsleddy": 1,
-			"indexFile": "/path/to/BrainSuiteBIDSAppSampleData/eddyPrep/index.txt",
-			"acqpFile": "/path/to/BrainSuiteBIDSAppSampleData/eddyPrep/acqp.txt",
+			"indexFile": "/BrainSuiteBIDSAppSampleData/eddyPrep/index.txt",
+			"acqpFile": "/BrainSuiteBIDSAppSampleData/eddyPrep/acqp.txt",
 			"flm": "quadratic",
 			"slm": "none",
 			"fep": 0,
