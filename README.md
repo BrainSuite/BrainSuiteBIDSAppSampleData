@@ -19,9 +19,11 @@ The source code for BrainSuite BIDS App is publicly available and is located at 
 
 ## Citation for AOMIC-PIOP2 Dataset ##
 Citation for the complete AOMIC-PIOP2 dataset:
+
 * Snoek, L., van der Miesen, M. M., Van Der Leij, A., Beemsterboer, T., Eigenhuis, A., & Steven Scholte, H. (2020). AOMIC-PIOP2. OpenNeuro. [Dataset] doi: 10.18112/openneuro.ds002790.v2.0.0
 
 Citation for the dataset paper:
+
 * Snoek, L., van der Miesen, M. M., Beemsterboer, T., Van Der Leij, A., Eigenhuis, A., & Steven Scholte, H. (2021). The Amsterdam Open MRI Collection, a set of multimodal MRI datasets for individual difference analyses. Scientific data, 8(1), 85.
 
 ## AOMIC-PIOP2 Dataset License ##
