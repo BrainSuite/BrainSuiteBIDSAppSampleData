@@ -15,7 +15,7 @@ Please visit our website at [https://brainsuite.org/BIDS/walkthrough.html](https
 Additional details regarding the BrainSuite BIDS App and its usage can be found on [the BrainSuite website BIDS page](https://brainsuite.org/BIDS/). For any questions or comments, please submit them as issues on our [BrainSuite BIDS App GitHub repository](https://github.com/bids-apps/BrainSuite).
 
 ## Source Code ##
-The source code for BrainSuite BIDS App is publicly available and is located at [https://github.com/bids-apps/BrainSuite/](https://github.com/bids-apps/BrainSuite/). Additionally, our BrainSuite BIDS App images are available as a Docker image on [DockerHub](https://hub.docker.com/r/bids/brainsuite/) and as a Singularity image on our [website](https://brainsuite.org/BIDS/sif).
+The source code for BrainSuite BIDS App is publicly available and is located at [https://github.com/bids-apps/BrainSuite/](https://github.com/bids-apps/BrainSuite/). Additionally, our BrainSuite BIDS App images are available as a Docker image on [DockerHub](https://hub.docker.com/r/bids/brainsuite/) and as a Singularity image on our [website](http://brainsuite.org/data/sif/bids_brainsuite_v23a.simg).
 
 ## Citation for AOMIC-PIOP2 Dataset ##
 Citation for the complete AOMIC-PIOP2 dataset:
