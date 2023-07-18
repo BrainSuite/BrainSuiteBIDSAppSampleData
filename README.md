@@ -1,5 +1,5 @@
 # Example Dataset for the BrainSuite BIDS App #
-This repository contains a small subset of the publicly available [Amsterdam Open MRI Collection's Population Imaging of Psychology 2 (AOMIC-PIOP2)](https://openneuro.org/datasets/ds002790/versions/2.0.0) dataset available from [OpenNeuro](openneuro.org) and other files required to perform a demonstration of BrainSuite BIDS App's participant-level processing and the BrainSuite Dashboard quality control functionality. These files in this repository include:
+This repository contains a subset of data from four subjects from the [Amsterdam Open MRI Collection's Population Imaging of Psychology 2 (AOMIC-PIOP2)](https://openneuro.org/datasets/ds002790/versions/2.0.0) open-access dataset available from [OpenNeuro](openneuro.org), along with the files required to perform a demonstration of BrainSuite BIDS App's participant-level processing and BrainSuite Dashboard's quality control functionality. The files and directories in this repository include:
 
 * AOMIC-PIOP2 : a BIDS-compliant study directory containing data from 4 participants; modalities include T1-weighted (T1-w), diffusion MRI (dMRI), resting-state functional MRI (rs-fMRI).
 * aomic-piop2_preprocspec.json : a JSON file containing parameters for T1-weighted, dMRI, and rs-fMRI processing.
@@ -11,17 +11,17 @@ This demo will enable you to display intermediate outputs using the BrainSuite D
 1. Install Docker from [here](https://docs.docker.com/install/). Docker is available on all platforms. For Linux, you may have to perform additional [post-installation steps](https://docs.docker.com/engine/install/linux-postinstall/).
 
 ## Instructions on Running Participant-Level Processing ##
-1. Download this repository by cloning this repository or by downloading [the zip file](https://github.com/BrainSuite/BrainSuiteBIDSAppSampleData/archive/refs/heads/master.zip). To clone, run:
+1. Download this repository by cloning it or by downloading [the zip file](https://github.com/BrainSuite/BrainSuiteBIDSAppSampleData/archive/refs/heads/master.zip). To clone, run:
 ```
 git clone https://github.com/BrainSuite/BrainSuiteBIDSAppSampleData.git
 ```
 
-2. Pull BrainSuite BIDS App image:
+2. Pull the BrainSuite BIDS App image:
 ```
 docker pull bids/brainsuite:stable
 ```
 
-3. Run structural, difussion, and function MRI processing for all subjects:
+3. Run structural, diffusion, and function MRI processing for all subjects:
 ```
 docker run -ti --rm \
       -v /path/to/BrainSuiteBIDSAppSampleData/:/BrainSuiteBIDSAppSampleData \
@@ -45,7 +45,7 @@ docker run -ti --rm \
       /BrainSuiteBIDSAppSampleData/AOMIC-PIOP2 /output participant \
       --stages DASHBOARD --localWebserver
 ```
-To view the BrainSuite Dashboard for real-time updates on your processing, open a web browser and navigate to: http://127.0.0.1:8080.
+To view the BrainSuite Dashboard for real-time updates as your date are processed, open a web browser and navigate to: http://127.0.0.1:8080.
 
 ## Instructions for Running Only One Subject ##
 1. If you haven't already done so, please complete steps 1 and 2 in the instructions above.
