@@ -1,21 +1,21 @@
 # Example Dataset for the BrainSuite BIDS App #
-This repository contains a small subset of the publicly available [Amsterdam Open MRI Collection's Population Imaging of Psychology 2 (AOMIC-PIOP2)](https://openneuro.org/datasets/ds002790/versions/2.0.0) dataset available from [OpenNeuro](openneuro.org) and other files required to perform a demonstration of BrainSuite BIDS App's participant-level processing and the BrainSuite Dashboard quality control functionality. These files in this repository include:
+This repository contains a subset of data from four subjects from the [Amsterdam Open MRI Collection's Population Imaging of Psychology 2 (AOMIC-PIOP2)](https://openneuro.org/datasets/ds002790/versions/2.0.0) open-access dataset available from [OpenNeuro](openneuro.org), along with the files required to perform a demonstration of BrainSuite BIDS App's participant-level processing and BrainSuite Dashboard's quality control functionality. The files and directories in this repository include:
 
 * AOMIC-PIOP2 : a BIDS-compliant study directory containing data from 4 participants; modalities include T1-weighted (T1-w), diffusion MRI (dMRI), resting-state functional MRI (rs-fMRI).
 * aomic-piop2_preprocspec.json : a JSON file containing parameters for T1-weighted, dMRI, and rs-fMRI processing.
 * eddyPrep: Two text files required for running [FSL's eddy](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/eddy>) during participant-level processing. These files contain information regarding acquisition parameters for diffusion MRI data.
 * README.md : brief information regarding this repository.
 
-This demo will guide you through the steps necessary to process the T1-w, dMRI, and rs-fMRI data from the 4 participants as well as display intermediate outputs using the BrainSuite Dashboard. An example of the output produced from this dataset is available at [https://brainsuite.github.io/DashboardDemo/](https://brainsuite.github.io/DashboardDemo/).
+This demo will guide you through the steps necessary to process the T1w, dMRI, and rsfMRI data from the 4 participants as well as visualize intermediate outputs using the BrainSuite Dashboard. An example of the output produced from this dataset is available at [https://brainsuite.github.io/DashboardDemo/](https://brainsuite.github.io/DashboardDemo/).
 
 ## Instructions for running participant-level workflows and BrainSuite Dashboard ##
-Please visit our website at [https://brainsuite.org/BIDS/walkthrough.html](https://brainsuite.org/BIDS/walkthrough.html) for complete instructions for this demo walk-through.
+Complete instructions for running this demo are available at [https://brainsuite.org/BIDS/walkthrough.html](https://brainsuite.org/BIDS/walkthrough.html).
 
 ## Support ##
-Additional details regarding the BrainSuite BIDS App and its usage can be found on [the BrainSuite website BIDS page](https://brainsuite.org/BIDS/). For any questions or comments, please submit them as issues on our [BrainSuite BIDS App GitHub repository](https://github.com/bids-apps/BrainSuite).
+Additional details regarding the BrainSuite BIDS App and its usage can be found on [the BrainSuite website BIDS page](https://brainsuite.org/BIDS/). Please submit any questions or comments as issues on our [BrainSuite BIDS App GitHub repository](https://github.com/bids-apps/BrainSuite/).
 
 ## Source Code ##
-The source code for BrainSuite BIDS App is publicly available and is located at [https://github.com/bids-apps/BrainSuite/](https://github.com/bids-apps/BrainSuite/). Additionally, our BrainSuite BIDS App images are available as a Docker image on [DockerHub](https://hub.docker.com/r/bids/brainsuite/) and as a Singularity image on our [website](http://brainsuite.org/data/sif/bids_brainsuite_v23a.simg).
+The source code for the BrainSuite BIDS App is publicly available and is located at [https://github.com/bids-apps/BrainSuite/](https://github.com/bids-apps/BrainSuite/). Additionally, our BrainSuite BIDS App images are available as a Docker image on [DockerHub](https://hub.docker.com/r/bids/brainsuite/) and as a Singularity image on our [website](http://brainsuite.org/data/sif/bids_brainsuite_v23a.simg).
 
 ## Citation for AOMIC-PIOP2 Dataset ##
 Citation for the complete AOMIC-PIOP2 dataset:
