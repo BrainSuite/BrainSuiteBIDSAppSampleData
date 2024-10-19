@@ -11,7 +11,7 @@ The files and directories in this repository include:
 This demo will guide you through the steps necessary to process the T1w, dMRI, and rsfMRI data from the 4 participants as well as visualize intermediate outputs using the BrainSuite Dashboard. An example of the output produced from this dataset is available at [https://brainsuite.github.io/DashboardDemo/](https://brainsuite.github.io/DashboardDemo/).
 
 ## Instructions for running participant-level workflows and BrainSuite Dashboard ##
-Complete instructions for running this demo are available at [https://brainsuite.org/BIDS/walkthrough/](https://brainsuite.org/BIDS/walkthrough/).
+Complete instructions for running this demo are available at [https://brainsuite.org/BIDS/walkthrough.html](https://brainsuite.org/BIDS/walkthrough.html).
 
 ## Support ##
 Additional details regarding the BrainSuite BIDS App and its usage can be found on [the BrainSuite website BIDS page](https://brainsuite.org/BIDS/). Please submit any questions or comments as issues on our [BrainSuite BIDS App GitHub repository](https://github.com/bids-apps/BrainSuite/).
